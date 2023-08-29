@@ -1,8 +1,8 @@
 # Chessboard-problem
 Given a n by n board where n is of form 2k where k >= 1 (Basically n is a power of 2 with minimum value as 2). The board has one missing cell (of size 1 x 1). Fill the board using L shaped tiles. A L shaped tile is a 2 x 2 square with one cell of size 1×1 missing.
 ![image](https://github.com/palakpatel01/Chessboard-problem/assets/136109031/f7bd610a-c869-49d5-8cb6-7932179dcf1c)
-
 Figure 1: An example input
+
 This problem can be solved using Divide and Conquer. Below is the recursive algorithm.
 
 // n is size of given square, p is location of missing cell
@@ -25,13 +25,12 @@ Tile(int n, Point p)
 
 The below diagrams show working of above algorithm 
 ![image](https://github.com/palakpatel01/Chessboard-problem/assets/136109031/a3391a93-8e39-4878-95cb-064161204b2a)
-
 Figure 2: After placing the first tile
+
 ![image](https://github.com/palakpatel01/Chessboard-problem/assets/136109031/22edcf7e-be07-4e29-8fcb-86ee8f4cf6d5)
-
 Figure 3: Recurring for the first subsquare.
-![image](https://github.com/palakpatel01/Chessboard-problem/assets/136109031/215ae99b-2440-4ec2-820a-38dca0bc8c85)
 
+![image](https://github.com/palakpatel01/Chessboard-problem/assets/136109031/215ae99b-2440-4ec2-820a-38dca0bc8c85)
 Figure 4: Shows the first step in all four subsquares.
 
 Input :  size = 2 and mark coordinates = (0, 0)
